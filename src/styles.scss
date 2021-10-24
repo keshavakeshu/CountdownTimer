@@ -1,0 +1,122 @@
+body {
+    font-family: monospace;
+    font-size: 14px;
+    margin: 0%;
+    padding: 0%;
+}
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    padding:0.5rem 5rem;
+    h1 {
+        display: flex;
+        font-weight: normal;
+        font-family: monospace;
+    }
+}
+.timer {
+    position: absolute;
+    box-shadow: 0 0 3px rgb(0 0 0 / 16%);
+    padding: 1rem;
+    border-radius: 4px;
+    width: 450px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255,0.7);
+    label {
+        font-size: 14px;
+    font-family: monospace;
+    font-weight: bold;
+    }
+    small {
+        font-size: 10px;
+    }
+}
+.form-group {
+    margin: 0 0 1rem 0;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    padding: 5px 15px;
+    font-size: 14px;
+    font-family: monospace;
+    border: none;
+    text-transform: uppercase;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    line-height: 7px;
+    display: inline-block;
+    height: 32px;
+}
+.primaryButton {
+    background: #1976d2;
+    color: #fff;
+    &:hover {
+        background-color: #0c4c8c;
+        box-shadow: 0 0 5px rgba(0,0,0,0.16);
+    }
+}
+.secondaryButton {
+    background-color: #ffffff;
+    border: 1px solid #DDDDDD;
+    &:hover {
+        box-shadow: 0 0 5px rgba(0,0,0,0.16);
+    }
+}
+.timervalue p {
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+}
+input {
+    border: 1px solid #DDDDDD;
+    padding: 3px 8px;
+    margin: 5px 0;
+    font-family: monospace;
+    font-size: 16px;
+}
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+   .content {
+    display: flex;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lapslist {
+    font-family: monospace;
+    font-size: 16px;
+  }
